@@ -15,7 +15,7 @@ SportsCar.prototype = Object.create(Car.prototype)
 SportsCar.prototype.constructor = SportsCar
 
 SportsCar.prototype.getTopSpeed= function(){
-	return TopSpeed
+	return topSpeed
 }
 
 // Do not change the code below
